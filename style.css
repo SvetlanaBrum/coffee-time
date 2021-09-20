@@ -1,0 +1,340 @@
+body {
+    background-image: url(0.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: antiquewhite;
+    background-attachment: fixed;
+    font-family: 'Amatic SC', cursive;
+    
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+h1 {
+    font-size: 45px;
+    color: white;
+}
+h3 {
+    font-size: 20px;
+    margin-top: -20px;
+    color: white;
+}
+h2 {
+    font-size: 30px;
+    color: white;
+}
+
+.inputField {
+    display: flex;
+    
+    
+}
+#search {
+    
+    background: #f1aa46;
+    flex: 1;
+    text-align: center;
+    outline: none;
+    border:3px dashed white;
+    border-radius: 5px;
+    padding: 10px;
+
+    font-size: 18px;
+    font-weight: bolder;
+    color: white;
+    letter-spacing: 15px;
+    font-family: 'Amatic SC', cursive;
+}
+#search::-webkit-input-placeholder {
+    color:white;
+    font-weight: bold;
+    
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.menu-board {
+    margin: 10px;
+    outline: none;
+    position: relative;
+}
+.board {
+    width: 350px;
+    height: 595px;
+    border:3px dashed white;
+    border-radius: 5px;
+}
+.text {
+    position: absolute;
+    top: 180px;
+    right: 80px;
+
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}
+.item {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+}
+.croissant {
+    top: 250px;
+    right: 200px;
+}
+.cake {
+    top: 300px;
+    right: 200px;
+}
+.cupcake {
+    top: 350px;
+    right: 200px;
+}
+.pancakes {
+    top: 410px;
+    right: 200px;
+}
+.descr {
+    position: absolute;
+    font-size: 17px;
+    color: white;
+}
+.one {
+    top: 250px;
+    right: 110px;
+}
+.two {
+    top: 295px;
+    right: 110px;
+}
+.three {
+    top: 350px;
+    right: 110px;
+}
+.four {
+    top: 410px;
+    right: 110px;
+}
+
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 10px;
+    
+}
+.coffee {
+    text-align: center;
+    margin: 10px;
+}
+
+.photo {
+    width: 300px;
+    height: 250px;
+    border:3px dashed white;
+    border-radius: 5px;
+}
+
+a{
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+@media all and (max-width:481px) {
+    h1 {
+        font-size: 35px;
+        color: white;
+    }
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    .menu-board {
+        margin-left: 40px;
+        outline: none;
+        position: relative;
+    }
+    .board {
+        width: 300px;
+        height: 505px;
+        border:3px dashed white;
+        border-radius: 5px;
+    }
+    .text {
+        position: absolute;
+        top: 150px;
+        right: 90px;
+    }
+    .croissant {
+        top: 210px;
+        right: 220px;
+    }
+    .cake {
+        top: 260px;
+        right: 220px;
+    }
+    .cupcake {
+        top: 310px;
+        right: 220px;
+    }
+    .pancakes {
+        top: 360px;
+        right: 220px;
+    }
+    .one {
+        top: 210px;
+        right: 130px;
+    }
+    .two {
+        top: 260px;
+        right: 130px;
+    }
+    .three {
+        top: 310px;
+        right: 130px;
+    }
+    .four {
+        top: 360px;
+        right: 130px;
+    }
+    
+    .photo {
+        width: 250px;
+        height: 200px;
+        border:3px dashed white;
+        border-radius: 5px;
+    }
+}
+@media all and (max-width:361px) {
+    h1 {
+        font-size: 30px;
+        color: white;
+    }
+    
+    .menu-board {
+        margin-left: 20px;
+    }
+    .board {
+        width: 300px;
+        height: 505px;
+        border:3px dashed white;
+        border-radius: 5px;
+    }
+    .text {
+        position: absolute;
+        top: 150px;
+        right: 70px;
+    }
+    .croissant {
+        top: 210px;
+        right: 220px;
+    }
+    .cake {
+        top: 260px;
+        right: 220px;
+    }
+    .cupcake {
+        top: 310px;
+        right: 220px;
+    }
+    .pancakes {
+        top: 360px;
+        right: 220px;
+    }
+    .one {
+        top: 210px;
+        right: 130px;
+    }
+    .two {
+        top: 260px;
+        right: 130px;
+    }
+    .three {
+        top: 310px;
+        right: 130px;
+    }
+    .four {
+        top: 360px;
+        right: 130px;
+    }
+    .photo {
+        width: 250px;
+        height: 200px;
+        border:3px dashed white;
+        border-radius: 5px;
+    }
+}
+@media all and (max-width:321px) {
+    h1 {
+        font-size: 25px;
+        color: white;
+    }
+    
+    .menu-board {
+        margin-left: 0px;
+    }
+    .board {
+        width: 300px;
+        height: 505px;
+        border:3px dashed white;
+        border-radius: 5px;
+    }
+    .text {
+        position: absolute;
+        top: 150px;
+        right: 50px;
+    }
+    .croissant {
+        top: 210px;
+        right: 200px;
+    }
+    .cake {
+        top: 260px;
+        right: 200px;
+    }
+    .cupcake {
+        top: 310px;
+        right: 200px;
+    }
+    .pancakes {
+        top: 360px;
+        right: 200px;
+    }
+    .one {
+        top: 210px;
+        right: 130px;
+    }
+    .two {
+        top: 260px;
+        right: 130px;
+    }
+    .three {
+        top: 310px;
+        right: 130px;
+    }
+    .four {
+        top: 360px;
+        right: 130px;
+    }
+    .photo {
+        width: 250px;
+        height: 200px;
+        border:3px dashed white;
+        border-radius: 5px;
+    }
+}
